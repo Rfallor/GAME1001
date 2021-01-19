@@ -18,16 +18,16 @@ int main()
 
 	//Arithmetic operations
 	
-	double first = 5.75, //Need to include double, so first functions can be utilized. Otherwise an error occurs
+	int first = 5.75, // Need to include int, so first functions can be utilized. Otherwise an error occurs
 		second = 100.57,
 		third = 8.891,
 		fourth = 4.44;
 
-	cout << "Addition:" << first + fourth << endl;
-	cout << "Subtraction:" << second - third << endl;
-	cout << "Multiplication:" << second * fourth << endl;
-	cout << "Division:" << second / first << endl;
-	cout << "Modulus:" << (int)fourth % (int)first << endl;
+	cout << "Addition:" << first + fourth << endl; // Addition Function 
+	cout << "Subtraction:" << second - third << endl; //Subtraction Function
+	cout << "Multiplication:" << second * fourth << endl; //Multiplication Function 
+	cout << "Division:" << second / first << endl; //Division Function
+	cout << "Modulus:" << (int)fourth % (int)first << endl; //Modulus Function
 	
 	
 
